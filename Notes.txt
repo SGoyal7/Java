@@ -1,0 +1,1 @@
+1. static since we want to execute the the main function w/o creating object of Main class
