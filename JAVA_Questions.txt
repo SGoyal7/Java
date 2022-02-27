@@ -1,0 +1,14 @@
+1. static since we want to execute the the main function w/o creating object of Main class
+2. new keyword
+3. arrays in Java
+4. null
+5. Primitives and Object types
+6. Wrapper classes
+7. HashMap
+8. TypeConversion , typecasting, type promotion(in Java)
+9. Data-types: short, long, double, float, byte
+10. Git (eg. pull requests, branch, SSH Keys, etc)
+11. Method Scope, Block Scope, Loop scope(Java)
+12. Shadowing
+13. Variable length arguments
+14. TimeComplexity
