@@ -37,5 +37,19 @@ public class Find {
         return findAllIndex2(arr, target, index+1, list);
     }
 
+    static ArrayList findAllIndex3(int[] arr, int target, int index) {
+        ArrayList<Integer> list = new ArrayList<>();
+        
+        if(index == arr.length) {
+            return list;
+        }
+        if(arr[index] == target) {
+            list.add(index);
+        }
+        ArrayList<Integer> ansReceived =  findAllIndex3(arr, target, index+1);
+        list.addAll(ansReceived);
+        return list;
+    }
+
 
 }

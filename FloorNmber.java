@@ -1,12 +1,13 @@
-public class BinarySearch {
-    
+public class FloorNmber {
     public static void main(String[] args) {
-        int arr[] = {-5,-2,1,2,15,18,20,50};
-        int ans = search(arr, 18);
-        System.out.println(ans);
+        int[] arr = {2,3,5,9,14,16,18};
+        int target = 15;
+        int ans = floor(arr, target);
+        System.out.println(arr[ans]);
     }
 
-    static int search(int[] arr, int target) {
+    //return the index of the greatest no. <= target
+    static int floor(int[] arr, int target) {
         int start = 0, end = arr.length - 1;
 
         while(start <= end) {
@@ -21,6 +22,6 @@ public class BinarySearch {
                 return mid;
             }
         }
-        return -1;
+        return start;
     }
 }
